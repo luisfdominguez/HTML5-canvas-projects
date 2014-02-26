@@ -51,7 +51,7 @@ table {
 body {
     background: rgb(43,62,66);
     font-family: "Trebuchet MS", "Verdana";
-    color: rgb(119,190,210);
+    color: rgb(123,192,249);
 } 
 
 #container {
@@ -117,12 +117,12 @@ canvas {
  }
 
 .ui-widget-header {
-    background: rgb(177,213,8);
+    background: rgb(8,96,168);
  	border-radius: 4px;
-    box-shadow: inset 1px 6px 12px rgb(144,238,144), inset -1px -10px 5px rgb(0,100,0), 1px 2px 1px black;
-    -o-box-shadow: inset 1px 6px 12px rgb(144,238,144), inset -1px -10px 5px rgb(0,100,0), 1px 2px 1px black;
-    -webkit-box-shadow: inset 1px 6px 12px rgb(144,238,144), inset -1px -10px 5px rgb(0,100,0), 1px 2px 1px black;
-    -moz-box-shadow: inset 1px 6px 12px rgb(144,238,144), inset -1px -10px 5px rgb(0,100,0), 1px 2px 1px black;
+    box-shadow: inset 1px 6px 12px rgb(123,192,249), inset -1px -10px 5px rgb(5,70,122), 1px 2px 1px black;
+    -o-box-shadow: inset 1px 6px 12px rgb(123,192,249), inset -1px -10px 5px rgb(5,70,122), 1px 2px 1px black;
+    -webkit-box-shadow: inset 1px 6px 12px rgb(123,192,249), inset -1px -10px 5px rgb(5,70,122), 1px 2px 1px black;
+    -moz-box-shadow: inset 1px 6px 12px rgb(123,192,249), inset -1px -10px 5px rgb(5,70,122), 1px 2px 1px black;
 }
 
 #tablescore {
@@ -148,12 +148,12 @@ canvas {
     height: 60px;
     font-size: 20px;
     border: 1px solid rgb(0,100,0);
-    background-color: green;
+    background-color: rgb(8,96,168);
     border-radius: 4px;
-    box-shadow: inset 1px 6px 12px rgb(144,238,144), inset -1px -10px 5px rgb(0,100,0), 1px 2px 1px black;
-    -o-box-shadow: inset 1px 6px 12px rgb(144,238,144), inset -1px -10px 5px rgb(0,100,0), 1px 2px 1px black;
-    -webkit-box-shadow: inset 1px 6px 12px rgb(144,238,144), inset -1px -10px 5px rgb(0,100,0), 1px 2px 1px black;
-    -moz-box-shadow: inset 1px 6px 12px rgb(144,238,144), inset -1px -10px 5px rgb(0,100,0), 1px 2px 1px black;
+    box-shadow: inset 1px 6px 12px rgb(123,192,249), inset -1px -10px 5px rgb(5,70,122), 1px 2px 1px black;
+    -o-box-shadow: inset 1px 6px 12px rgb(123,192,249), inset -1px -10px 5px rgb(5,70,122), 1px 2px 1px black;
+    -webkit-box-shadow: inset 1px 6px 12px rgb(123,192,249), inset -1px -10px 5px rgb(5,70,122), 1px 2px 1px black;
+    -moz-box-shadow: inset 1px 6px 12px rgb(123,192,249), inset -1px -10px 5px rgb(5,70,122), 1px 2px 1px black;
     color: rgb(255,255,255);
     text-shadow: 1px 1px 1px black;
     padding: 5px 30px;
@@ -162,7 +162,7 @@ canvas {
 
 label span {
     display: block;
-    color: rgb(	221,238,243);
+    color: rgb(221,238,243);
     font-size: 40px;
     text-align: center;
 }
@@ -177,6 +177,6 @@ label span {
 
 #msg span {
     font-size: 40px;
-    color: rgb(117,210,137);
+    color: rgb(123,192,249);
     text-shadow: 1px 1px 1px black;
 }
