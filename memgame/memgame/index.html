@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Memory game</title>
+
+    <meta charset="utf-8" />
+    <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="container">
+        <div id="progressbardiv">
+          <p>Tiempo restante:</p>
+              <div id="progressbar"</div> 
+        </div>
+
+        <div id="info">
+          <p>Intente encontrar dos pares de imagenes. Tiene 30 segundos para encontrar todas las figuras.</p>
+        </div>
+
+        <form id="tablescore" name="tablescore" action="#">
+            <div>
+                <label><span>Puntaje</span></label>
+                <input type="text" value="0" id="score" readonly="readonly" />
+                <input type="button" value="Comenzar" />
+            </div>
+        </form>
+        
+        <canvas id="canvas" width="1000" height="700">
+            <span class="fallback">Su navegador no soporta HTML5.</span>
+        </canvas>
+        
+        <div id="msg"></div>
+    </div>
+    
+    <script src="js/jquery-1.6.2.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+    <script src="js/memgame.js"></script>
+
+</body>
+</html>
